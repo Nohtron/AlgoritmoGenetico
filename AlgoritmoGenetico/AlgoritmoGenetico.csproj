@@ -44,7 +44,6 @@
     <Compile Include="Gene.cs" />
     <Compile Include="Individuo.cs" />
     <Compile Include="DNA.cs" />
-    <Compile Include="Algoritmo.cs" />
     <Compile Include="Populacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

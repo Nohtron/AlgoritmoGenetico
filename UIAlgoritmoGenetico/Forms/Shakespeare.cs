@@ -78,18 +78,33 @@ namespace UIAlgoritmoGenetico.Forms
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            populacaoShakespeare.evoluir();
+            try
+            {
+                populacaoShakespeare.evoluir();
 
-            listBox1.DataSource = populacaoShakespeare.individuos;
+                listBox1.DataSource = populacaoShakespeare.individuos;
 
-            label1.Text = populacaoShakespeare.geracao.ToString();
-            label2.Text = populacaoShakespeare.melhorIndividuoDeTodasAsGeracoes.ToString();
-            label3.Text = populacaoShakespeare.melhorIndividuoDeTodasAsGeracoes.fitness.ToString();
+                label1.Text = populacaoShakespeare.geracao.ToString();
+                label2.Text = populacaoShakespeare.melhorIndividuoDeTodasAsGeracoes.ToString();
+                label3.Text = populacaoShakespeare.melhorIndividuoDeTodasAsGeracoes.fitness.ToString();
 
-            if (populacaoShakespeare.melhorIndividuoDeTodasAsGeracoes.fitness == 1)
+                if (populacaoShakespeare.melhorIndividuoDeTodasAsGeracoes.fitness == 1)
+                {
+                    timer1.Enabled = false;
+                    return;
+                }
+            }
+            catch (NullReferenceException ex)
             {
                 timer1.Enabled = false;
-                return;
+                MessageBox.Show("População não inicializada. \n" + ex.ToString());
+                
+            }
+            catch (Exception ex)
+            {
+                timer1.Enabled = false;
+                MessageBox.Show("Exception 2 caught." + ex.ToString());
+                
             }
         }
 
