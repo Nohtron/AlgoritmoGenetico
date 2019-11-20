@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAlgoritmoGenetico", "UIAlgoritmoGenetico\UIAlgoritmoGenetico.csproj", "{FEE64475-8715-44A5-9BBD-136EA0EE373F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmoGenetico", "AlgoritmoGenetico\AlgoritmoGenetico.csproj", "{C10CF227-F3EB-471B-8DD0-D0BEEA398A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmoGenetico2", "AlgoritmoGenetico2\AlgoritmoGenetico2.csproj", "{D3CA93C2-53BD-494C-B783-B0E4A20B5BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedeNeural", "RedeNeural\RedeNeural.csproj", "{82EC438A-1CB2-45F9-982D-08B55E257DBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE64475-8715-44A5-9BBD-136EA0EE373F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE64475-8715-44A5-9BBD-136EA0EE373F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE64475-8715-44A5-9BBD-136EA0EE373F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE64475-8715-44A5-9BBD-136EA0EE373F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10CF227-F3EB-471B-8DD0-D0BEEA398A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10CF227-F3EB-471B-8DD0-D0BEEA398A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10CF227-F3EB-471B-8DD0-D0BEEA398A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10CF227-F3EB-471B-8DD0-D0BEEA398A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CA93C2-53BD-494C-B783-B0E4A20B5BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CA93C2-53BD-494C-B783-B0E4A20B5BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CA93C2-53BD-494C-B783-B0E4A20B5BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CA93C2-53BD-494C-B783-B0E4A20B5BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82EC438A-1CB2-45F9-982D-08B55E257DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EC438A-1CB2-45F9-982D-08B55E257DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EC438A-1CB2-45F9-982D-08B55E257DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EC438A-1CB2-45F9-982D-08B55E257DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60EC19EA-F56B-4C18-9344-E4EBAC9C3EA5}
+	EndGlobalSection
+EndGlobal
