@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\City.cs" />
     <Compile Include="Classes\EnglishAG\DNA.cs" />
     <Compile Include="Classes\EnglishAG\GeneticAlgorithm.cs" />
     <Compile Include="Classes\GA\AlgoritmoGenetico.cs" />
